@@ -5,7 +5,7 @@ USE `qcode`;
 CREATE TABLE `book` (
   `id` serial PRIMARY KEY,
   `title` varchar(255) NOT NULL,
-  `isbn` int NOT NULL,
+  `isbn` varchar(255) NOT NULL,
   `language` varchar(255) NOT NULL,
   `image` varchar(255),
   `date_published` date

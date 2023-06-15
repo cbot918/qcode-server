@@ -78,7 +78,7 @@ public class Controller {
 		
 		// init connection
 		Connection conn = null;
-		try { conn = DriverManager.getConnection(connString, username,password); } 
+		try { conn = DriverManager.getConnection(connString, username, password); } 
 		catch (SQLException e) { e.printStackTrace(); }
 
 
@@ -124,6 +124,9 @@ public class Controller {
 		Connection conn = null;
 		try { conn = DriverManager.getConnection(connString, username,password); } 
 		catch (SQLException e) { e.printStackTrace(); }
+
+
+		
 
 
 		// create statement
